@@ -1,0 +1,20 @@
+# 设置默认行为，所有文本文件的行尾统一为 LF
+* text=auto eol=lf
+
+# 声明哪些是文本文件
+*.js text
+*.ts text
+*.vue text
+*.json text
+*.html text
+*.css text
+*.md text
+
+# 声明哪些是二进制文件（不应该修改其换行符）
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.woff binary
+*.woff2 binary 
